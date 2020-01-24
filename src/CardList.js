@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = (props) => {
-    const {robots} = props; 
+const CardList = ({robots}) => {
+    //const {robots} = props; 
     return(
         <div>
             {
