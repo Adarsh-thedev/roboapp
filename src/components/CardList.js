@@ -2,7 +2,8 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({robots}) => {
-    //const {robots} = props; 
+    //const {robots} = props;
+    
     return(
         <div>
             {
