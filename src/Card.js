@@ -5,7 +5,7 @@ const Card = (props) => {
     return(
         <React.Fragment>
             <div className = 'bg-gold dib br3 ma2 pa3 grow bw2 shadow=5 tc'>
-                <img alt='robot' src = {`https://www.robohash.org/${id}?200x200`} />
+                <img style = {{height : '200px', width : '200px'}} alt='robot' src = {`https://www.robohash.org/${id}?200x200`} />
                 <div>
                     <h2>{name}</h2>
                     <p>{email}</p>
